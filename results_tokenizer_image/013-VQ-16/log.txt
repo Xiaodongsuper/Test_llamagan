@@ -1,0 +1,9 @@
+[[34m2024-12-11 14:14:41[0m] Experiment directory created at results_tokenizer_image/013-VQ-16
+[[34m2024-12-11 14:14:41[0m] Experiment directory created in cloud at /home/dongxiao/LlamaGen/saved_model/2024-12-11-14-14-41/013-VQ-16/checkpoints
+[[34m2024-12-11 14:14:41[0m] Namespace(data_path='/home/dongxiao/Datasets/cifar10/images', data_face_path=None, cloud_save_path='/home/dongxiao/LlamaGen/saved_model', no_local_save=False, vq_model='VQ-16', vq_ckpt=None, finetune=False, ema=False, codebook_size=16384, codebook_embed_dim=8, codebook_l2_norm=True, codebook_weight=1.0, entropy_loss_ratio=0.0, commit_loss_beta=0.25, reconstruction_weight=1.0, reconstruction_loss='l2', perceptual_weight=1.0, disc_weight=0.5, disc_start=20000, disc_type='patchgan', disc_loss='hinge', gen_loss='hinge', compile=False, dropout_p=0.0, results_dir='results_tokenizer_image', dataset='imagenet', image_size=256, epochs=2, lr=0.0001, weight_decay=0.05, beta1=0.9, beta2=0.95, max_grad_norm=1.0, global_batch_size=128, global_seed=0, num_workers=16, log_every=100, ckpt_every=5000, gradient_accumulation_steps=1, mixed_precision='bf16', rank=0, world_size=4, gpu=0, dist_url='env://', distributed=True, dist_backend='nccl')
+[[34m2024-12-11 14:14:41[0m] Starting rank=0, seed=0, world_size=4.
+[[34m2024-12-11 14:14:42[0m] VQ Model Parameters: 71,883,403
+[[34m2024-12-11 14:14:43[0m] Discriminator Parameters: 2,765,633
+[[34m2024-12-11 14:14:43[0m] Dataset contains 50,000 images (/home/dongxiao/Datasets/cifar10/images)
+[[34m2024-12-11 14:14:43[0m] Training for 2 epochs...
+[[34m2024-12-11 14:14:43[0m] Beginning epoch 0...

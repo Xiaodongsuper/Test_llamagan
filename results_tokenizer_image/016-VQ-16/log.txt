@@ -1,0 +1,34 @@
+[[34m2024-12-11 14:15:41[0m] Experiment directory created at results_tokenizer_image/016-VQ-16
+[[34m2024-12-11 14:15:41[0m] Experiment directory created in cloud at /home/dongxiao/LlamaGen/saved_model/2024-12-11-14-15-41/016-VQ-16/checkpoints
+[[34m2024-12-11 14:15:41[0m] Namespace(data_path='/home/dongxiao/Datasets/cifar10/images', data_face_path=None, cloud_save_path='/home/dongxiao/LlamaGen/saved_model', no_local_save=False, vq_model='VQ-16', vq_ckpt=None, finetune=False, ema=False, codebook_size=16384, codebook_embed_dim=8, codebook_l2_norm=True, codebook_weight=1.0, entropy_loss_ratio=0.0, commit_loss_beta=0.25, reconstruction_weight=1.0, reconstruction_loss='l2', perceptual_weight=1.0, disc_weight=0.5, disc_start=20000, disc_type='patchgan', disc_loss='hinge', gen_loss='hinge', compile=False, dropout_p=0.0, results_dir='results_tokenizer_image', dataset='imagenet', image_size=256, epochs=2, lr=0.0001, weight_decay=0.05, beta1=0.9, beta2=0.95, max_grad_norm=1.0, global_batch_size=64, global_seed=0, num_workers=16, log_every=100, ckpt_every=5000, gradient_accumulation_steps=1, mixed_precision='bf16', rank=0, world_size=4, gpu=0, dist_url='env://', distributed=True, dist_backend='nccl')
+[[34m2024-12-11 14:15:41[0m] Starting rank=0, seed=0, world_size=4.
+[[34m2024-12-11 14:15:42[0m] VQ Model Parameters: 71,883,403
+[[34m2024-12-11 14:15:43[0m] Discriminator Parameters: 2,765,633
+[[34m2024-12-11 14:15:43[0m] Dataset contains 50,000 images (/home/dongxiao/Datasets/cifar10/images)
+[[34m2024-12-11 14:15:43[0m] Training for 2 epochs...
+[[34m2024-12-11 14:15:43[0m] Beginning epoch 0...
+[[34m2024-12-11 14:16:59[0m] (Generator) rec_loss: 0.1268, perceptual_loss: 0.6641, vq_loss: 0.0080, commit_loss: 0.0020, entropy_loss: -0.0000, codebook_usage: 0.0342, generator_adv_loss: -0.0000, disc_adaptive_weight: 1.0000, disc_weight: 0.0000
+[[34m2024-12-11 14:16:59[0m] (Discriminator) discriminator_adv_loss: 0.0000, disc_weight: 0.0000, logits_real: 0.0199, logits_fake: 0.0918
+[[34m2024-12-11 14:16:59[0m] (step=0000100) Train Loss: 0.9731, Train Steps/Sec: 1.31
+[[34m2024-12-11 14:18:13[0m] (Generator) rec_loss: 0.0489, perceptual_loss: 0.5039, vq_loss: 0.0125, commit_loss: 0.0031, entropy_loss: -0.0000, codebook_usage: 0.1668, generator_adv_loss: -0.0000, disc_adaptive_weight: 1.0000, disc_weight: 0.0000
+[[34m2024-12-11 14:18:14[0m] (Discriminator) discriminator_adv_loss: 0.0000, disc_weight: 0.0000, logits_real: 0.0044, logits_fake: 0.0304
+[[34m2024-12-11 14:18:14[0m] (step=0000200) Train Loss: 0.6419, Train Steps/Sec: 1.34
+[[34m2024-12-11 14:19:28[0m] (Generator) rec_loss: 0.0387, perceptual_loss: 0.4082, vq_loss: 0.0124, commit_loss: 0.0031, entropy_loss: -0.0000, codebook_usage: 0.3531, generator_adv_loss: -0.0000, disc_adaptive_weight: 1.0000, disc_weight: 0.0000
+[[34m2024-12-11 14:19:29[0m] (Discriminator) discriminator_adv_loss: 0.0000, disc_weight: 0.0000, logits_real: 0.0182, logits_fake: 0.0334
+[[34m2024-12-11 14:19:29[0m] (step=0000300) Train Loss: 0.5287, Train Steps/Sec: 1.34
+[[34m2024-12-11 14:20:43[0m] (Generator) rec_loss: 0.0443, perceptual_loss: 0.3477, vq_loss: 0.0127, commit_loss: 0.0032, entropy_loss: -0.0000, codebook_usage: 0.5493, generator_adv_loss: -0.0000, disc_adaptive_weight: 1.0000, disc_weight: 0.0000
+[[34m2024-12-11 14:20:43[0m] (Discriminator) discriminator_adv_loss: 0.0000, disc_weight: 0.0000, logits_real: 0.0317, logits_fake: 0.0352
+[[34m2024-12-11 14:20:43[0m] (step=0000400) Train Loss: 0.4384, Train Steps/Sec: 1.34
+[[34m2024-12-11 14:21:58[0m] (Generator) rec_loss: 0.0303, perceptual_loss: 0.2930, vq_loss: 0.0129, commit_loss: 0.0032, entropy_loss: -0.0000, codebook_usage: 0.6466, generator_adv_loss: -0.0000, disc_adaptive_weight: 1.0000, disc_weight: 0.0000
+[[34m2024-12-11 14:21:58[0m] (Discriminator) discriminator_adv_loss: 0.0000, disc_weight: 0.0000, logits_real: -0.0078, logits_fake: 0.0195
+[[34m2024-12-11 14:21:58[0m] (step=0000500) Train Loss: 0.3671, Train Steps/Sec: 1.34
+[[34m2024-12-11 14:23:13[0m] (Generator) rec_loss: 0.0211, perceptual_loss: 0.2754, vq_loss: 0.0128, commit_loss: 0.0032, entropy_loss: -0.0000, codebook_usage: 0.6794, generator_adv_loss: -0.0000, disc_adaptive_weight: 1.0000, disc_weight: 0.0000
+[[34m2024-12-11 14:23:13[0m] (Discriminator) discriminator_adv_loss: 0.0000, disc_weight: 0.0000, logits_real: -0.0018, logits_fake: 0.0058
+[[34m2024-12-11 14:23:13[0m] (step=0000600) Train Loss: 0.3285, Train Steps/Sec: 1.33
+[[34m2024-12-11 14:24:27[0m] (Generator) rec_loss: 0.0230, perceptual_loss: 0.3184, vq_loss: 0.0124, commit_loss: 0.0031, entropy_loss: -0.0000, codebook_usage: 0.7191, generator_adv_loss: -0.0000, disc_adaptive_weight: 1.0000, disc_weight: 0.0000
+[[34m2024-12-11 14:24:28[0m] (Discriminator) discriminator_adv_loss: 0.0000, disc_weight: 0.0000, logits_real: 0.0315, logits_fake: 0.0486
+[[34m2024-12-11 14:24:28[0m] (step=0000700) Train Loss: 0.3026, Train Steps/Sec: 1.34
+[[34m2024-12-11 14:25:29[0m] Beginning epoch 1...
+[[34m2024-12-11 14:25:43[0m] (Generator) rec_loss: 0.0233, perceptual_loss: 0.2129, vq_loss: 0.0125, commit_loss: 0.0031, entropy_loss: -0.0000, codebook_usage: 0.7230, generator_adv_loss: -0.0000, disc_adaptive_weight: 1.0000, disc_weight: 0.0000
+[[34m2024-12-11 14:25:43[0m] (Discriminator) discriminator_adv_loss: 0.0000, disc_weight: 0.0000, logits_real: 0.0339, logits_fake: 0.0435
+[[34m2024-12-11 14:25:43[0m] (step=0000800) Train Loss: 0.2645, Train Steps/Sec: 1.32

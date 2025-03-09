@@ -1,0 +1,8 @@
+*.pth
+*.ckpt
+*.bin
+*.model
+__pycache__/
+*.pyc
+Datasets/
+pretrained_models/
